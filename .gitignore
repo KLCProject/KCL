@@ -31,3 +31,9 @@
 # Etc
 *.suo
 *.db
+*.tlog
+*.log
+*.ipch
+*.opendb
+*.lastbuildstate
+*.idb
