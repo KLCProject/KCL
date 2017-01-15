@@ -10,6 +10,6 @@
 #include <stdio.h>
 #include <tchar.h>
 
-
-
-// TODO: reference additional headers your program requires here
+#include "../Common/CommonHeader.h"
+#include "../Common/CommonFuction.h"
+#include "../Common/CommonDef.h"

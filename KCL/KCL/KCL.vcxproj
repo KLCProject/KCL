@@ -146,6 +146,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\Common\CommonDef.h" />
+    <ClInclude Include="..\Common\CommonFuction.h" />
+    <ClInclude Include="..\Common\CommonHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
