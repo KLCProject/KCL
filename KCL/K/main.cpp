@@ -1,15 +1,13 @@
 #include "stdafx.h"
-#include <boost/lambda/lambda.hpp>
-#include <iostream>
-#include <iterator>
-#include <algorithm>
 
 int main()
 {
-	// test
-	using namespace boost::lambda;
-	typedef std::istream_iterator<int> in;
+	CReaderCSV Reader;
+	//Reader.Init("D:\\chrcra\\Documents\\KCL\\KCL\\GameData\\ActiveSkill1.csv");
+	if (!Reader.Init("..\\GameData\\ActiveSkill1.csv"))
+		Reader.Init("..\\..\\GameData\\ActiveSkill1.csv");
 
-	std::for_each(in(std::cin), in(), std::cout << (_1 * 3) << " ");
+	std::cout << "- End Program -" << std::endl;
+	getchar();
     return 0;
 }
