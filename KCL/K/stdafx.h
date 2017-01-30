@@ -7,16 +7,6 @@
 
 #include "targetver.h"
 
-#include <iostream>
-#include <fstream>
-#include <algorithm>
-#include <iterator>
-#include <string>
-#include <stdio.h>
-#include <tchar.h>
-
 #include "../Common/CommonHeader.h"
-#include "../Common/CommonFuction.h"
-#include "../Common/CommonDef.h"
 
 #include "ReaderCSV.h"

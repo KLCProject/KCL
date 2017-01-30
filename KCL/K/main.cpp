@@ -9,5 +9,8 @@ int main()
 
 	std::cout << "- End Program -" << std::endl;
 	getchar();
+
+	CSqliteHelper help;
+
     return 0;
 }

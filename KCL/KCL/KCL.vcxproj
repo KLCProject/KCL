@@ -74,6 +74,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>../sqlite;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -149,6 +150,14 @@
     <ClInclude Include="..\Common\CommonDef.h" />
     <ClInclude Include="..\Common\CommonFuction.h" />
     <ClInclude Include="..\Common\CommonHeader.h" />
+    <ClInclude Include="..\sqlite\sqlite3.h" />
+    <ClInclude Include="..\sqlite\sqlite3ext.h" />
+    <ClInclude Include="SqliteHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\sqlite\shell.c" />
+    <ClCompile Include="..\sqlite\sqlite3.c" />
+    <ClCompile Include="SqliteHelper.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
