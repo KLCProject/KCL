@@ -1,5 +1,7 @@
 #include "stdafx.h"
 
+#pragma comment( lib, "KCL.lib" )
+
 int main()
 {
 	CReaderCSV Reader;

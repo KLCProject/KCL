@@ -37,3 +37,6 @@
 *.opendb
 *.lastbuildstate
 *.idb
+*.pdb
+*.user
+*.ilk
